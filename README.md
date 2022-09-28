@@ -1,24 +1,24 @@
 # farmacia
 
-## Project setup
+---
+
+## Sobre
+- Aplicação desenvolvida em Vuejs seu objetivo é consumir a api criada pelo repositório [django-rest](https://github.com/GabrielVasconcelosMarques/django-rest) feito por mim, como backend desta aplicação.
+
+## Instruções de execução
+Instalação
 ```
-npm install
+npm install -y
 ```
 
-### Compiles and hot-reloads for development
+Dar um start no servidor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## utilização da aplicação
+- Foi implementada a interface com estilos feitos em botstrap, e utilização do axios para requisição da api
+- Obtive um erro de cors na requisição como mostra imagem abaixo:
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Imagem:
+![1](https://user-images.githubusercontent.com/66792384/192810226-c70afcd6-7fcd-4ba0-b1b4-567cf03defdd.PNG)
